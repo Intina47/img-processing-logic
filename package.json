@@ -1,0 +1,21 @@
+{
+  "name": "img-processing-logic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "mamba",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs-node": "^4.18.0",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "sharp": "^0.33.3"
+  }
+}
